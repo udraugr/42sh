@@ -1,0 +1,51 @@
+Begin  				: expr
+					;
+expr 				: expr_or
+					;
+expr_or				: expr_or '||' expr_and
+				|              expr_and
+					;
+expr_and			: expr_and '&&' expr_equal
+				|               expr_equal
+					;
+expr_equal			: expr_equal  '==' expr_relat_op
+				| expr_equal  '!=' expr_relat_op
+				|                  expr_relat_op
+					;
+expr_relat_op			: expr_relat_op  '>'  expr_additive
+				| expr_relat_op  '>=' expr_additive
+				| expr_relat_op  '<'  expr_additive
+				| expr_relat_op  '<=' expr_additive
+				|                     expr_additive
+					;
+expr_additive			: expr_additive '+' expr_multiplicativ
+				| expr_additive '-' expr_multiplicativ
+				|                   expr_multiplicativ
+					;
+expr_multiplicativ		: expr_multiplicativ '*' expr_unar
+				| expr_multiplicativ '/' expr_unar
+				| expr_multiplicativ '%' expr_unar
+				|                        expr_unar
+					;
+expr_unar			: expr_unar '+' expr_prefix
+				| expr_unar '-' expr_prefix
+				|               expr_prefix
+					;
+expr_prefix			: '++'VAR
+				| '--'VAR
+				| expr_suffix
+					;
+expr_suffix			: VAR'++'
+				| VAR'--'
+				| expr_brackets
+					;
+expr_barckets			: '(' expr ')'
+				| expr_return_value
+					;
+expr_return_value		: expr_digit
+				| expr_var
+					;
+expr_digit			: DIGIT
+					;
+expr_var			: VAR
+					;
