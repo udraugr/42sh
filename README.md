@@ -39,7 +39,7 @@ To compile, you will need to download the termcap library.
 In order to assemble the project, you need to go to the root directory of the project and in the terminal register the command **make**
 
 # Run the project:
-**. / 42sh **
+**./42sh**
 
 # Functionality:
 String processing through regular expressions and other tools was forbidden in the project, input processing was one of the project's difficult tasks. 42sh can run binaries in the absolute and relative paths, and can also change ENVs through the export and unset commands.
