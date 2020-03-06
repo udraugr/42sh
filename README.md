@@ -3,7 +3,7 @@
 ### [EN][2] Description of the project in English
 [2]: https://github.com/udraugr/42sh#42sh-1 "EN"
 
-# 42sh
+# 42sh - собственный shell
 42sh - это оболочка в стиле bash, которую мы разработали в школе программирования 21 на языке Cи. Школа Программирования 21 (филиал французкой школы "Ecole 42") позволяет изучать низкоуровневые подходы к разработке (в том числе некоторые ассемблеры) с целью выработать глубокое понимание того, что происходит под капотом.
 
 # Сборка проекта:
@@ -32,7 +32,7 @@
 Этот проект полностью написан в школе программирования 21, и принадлежит ей.
 
 
-# 42sh
+# 42sh - my custom shell
 42sh is a bash-style shell that we developed in School 21 using C programming language. School 21 (a branch of the French programming school "Ecole 42"), which allows us to study low-level subjects (including some assemblers) so that we can deeply understand what is happening under the hood.
 
 # Build the project:
@@ -58,4 +58,4 @@ Features 42sh:
 * command *test* to test conditions like *str1 -e str2*
 
 ### Note:
-This project is completely written in programming school 21, and belongs to her.
+This project is done at programming School 21, and belongs to it.
