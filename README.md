@@ -1,7 +1,7 @@
 ### [RU][1] Описание проекта на русском
-[1]: https://github.com/udraugr/42sh#42sh "RU"
+[1]: https://github.com/udraugr/42sh#42sh---%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-shell "RU"
 ### [EN][2] Description of the project in English
-[2]: https://github.com/udraugr/42sh#42sh-1 "EN"
+[2]: https://github.com/udraugr/42sh#42sh---my-custom-shell "EN"
 
 # 42sh - собственный shell
 42sh - это оболочка в стиле bash, которую мы разработали в школе программирования 21 на языке Cи. Школа Программирования 21 (филиал французкой школы "Ecole 42") позволяет изучать низкоуровневые подходы к разработке (в том числе некоторые ассемблеры) с целью выработать глубокое понимание того, что происходит под капотом.
